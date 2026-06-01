@@ -1,0 +1,34 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+log/
+
+# Training artifacts
+checkpoints/
+results/
+dataset/retrieval_cache/
+*.npy
+image/
+
+# Downloaded LLM assets
+llm/*
+!llm/download.py
+
+# Root-level generated figures
+/combined_encoding_comparison.png
+/embedding_tsne*.png
+/prompt_attention_heatmap*.png
+/prompt_attention_heatmap*.jpg
+/real_batch_encoding_comparison.png
+/tpe_visualization.png
+
+# Local notes
+/主干大模型对比
+/消融_*表格
+/最好结果参数.log
